@@ -1,0 +1,33 @@
+# ============================================
+#  ResQNet — Project Dependencies
+# ============================================
+#
+#  To install all dependencies, run:
+#  npm install
+#
+#  Or install each package manually:
+# ============================================
+
+# Core Framework
+expo@latest
+react@18.2.0
+react-native@latest
+
+# Navigation
+@react-navigation/native@latest
+@react-navigation/stack@latest
+react-native-screens@latest
+react-native-safe-area-context@latest
+react-native-gesture-handler@latest
+
+# Maps
+react-native-maps@latest
+
+# Location
+expo-location@latest
+
+# Firebase
+firebase@latest
+
+# Constants (for environment variables)
+expo-constants@latest

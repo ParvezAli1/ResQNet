@@ -1,0 +1,95 @@
+export const DEMO_SURVIVORS = [
+  {
+    senderId: 'maria-001',
+    type: 'sos',
+    message: 'Trapped on 2nd floor, building partially collapsed. 3 people with me, one injured.',
+    latitude: 14.5995,
+    longitude: 120.9842,
+    timestamp: Date.now() - 300000,
+    name: 'Maria Santos',
+  },
+  {
+    senderId: 'juan-002',
+    type: 'sos',
+    message: 'Flooding in our area. Need boat rescue. Family of 5.',
+    latitude: 14.6010,
+    longitude: 120.9860,
+    timestamp: Date.now() - 600000,
+    name: 'Juan Dela Cruz',
+  },
+  {
+    senderId: 'ana-003',
+    type: 'sos',
+    message: 'No food or water for 12 hours. Elderly parents with me.',
+    latitude: 14.5975,
+    longitude: 120.9825,
+    timestamp: Date.now() - 900000,
+    name: 'Ana Reyes',
+  },
+  {
+    senderId: 'carlos-004',
+    type: 'sos',
+    message: 'Medical emergency — child has high fever, no medicine.',
+    latitude: 14.6025,
+    longitude: 120.9880,
+    timestamp: Date.now() - 120000,
+    name: 'Carlos Garcia',
+  },
+];
+
+export const DEMO_HELPERS = [
+  {
+    senderId: 'helper-001',
+    type: 'helper',
+    skills: 'First Aid, Medical',
+    latitude: 14.5988,
+    longitude: 120.9850,
+    timestamp: Date.now() - 180000,
+    name: 'Dr. Elena Cruz',
+  },
+  {
+    senderId: 'helper-002',
+    type: 'helper',
+    skills: 'Transport, Rescue',
+    latitude: 14.6005,
+    longitude: 120.9870,
+    timestamp: Date.now() - 240000,
+    name: 'Rescue Team Bravo',
+  },
+  {
+    senderId: 'helper-003',
+    type: 'helper',
+    skills: 'Food & Water, Shelter',
+    latitude: 14.5960,
+    longitude: 120.9835,
+    timestamp: Date.now() - 60000,
+    name: 'Red Cross Station #4',
+  },
+];
+
+export const DEMO_RESOURCES = [
+  {
+    senderId: 'res-001',
+    type: 'resource',
+    resourceType: 'Water & Food Supplies',
+    latitude: 14.5970,
+    longitude: 120.9845,
+    timestamp: Date.now() - 420000,
+  },
+  {
+    senderId: 'res-002',
+    type: 'resource',
+    resourceType: 'Medical Kit & First Aid',
+    latitude: 14.6015,
+    longitude: 120.9855,
+    timestamp: Date.now() - 300000,
+  },
+  {
+    senderId: 'res-003',
+    type: 'resource',
+    resourceType: 'Emergency Shelter (50 capacity)',
+    latitude: 14.5990,
+    longitude: 120.9820,
+    timestamp: Date.now() - 150000,
+  },
+];
